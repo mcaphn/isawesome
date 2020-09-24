@@ -40,25 +40,25 @@ html {
 ------------------------------------- */
 
 .item1 {
-  background-image: url("/Users/Mica/Documents/HTML Work/ALPhotoPortfolio/img/1.jpg");
+  background-image: url("img/1.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .item2 {
-  background-image: url("/Users/Mica/Documents/HTML Work/ALPhotoPortfolio/img/2.jpg");
+  background-image: url("img/2.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .item3 {
-  background-image: url("/Users/Mica/Documents/HTML Work/ALPhotoPortfolio/img/3.jpg");
+  background-image: url("3.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .item4 {
-  background-image: url("/Users/Mica/Documents/HTML Work/ALPhotoPortfolio/img/4.jpg");
+  background-image: url("4.jpg");
   background-size: cover;
   background-position: center;
 }
