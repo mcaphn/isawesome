@@ -40,7 +40,7 @@ html {
 ------------------------------------- */
 
 .item1 {
-  background-image: "albertlisi.github.io/isawesome/img/1.jpg";
+  background-image: url("albertlisi.github.io/isawesome/img/1.jpg");
   background-size: cover;
   background-position: center;
 }
