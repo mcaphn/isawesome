@@ -40,25 +40,25 @@ html {
 ------------------------------------- */
 
 .item1 {
-  background-image: url("albertlisi.github.io/isawesome/img/1.jpg");
+  background-image: url("https://albertlisi.github.io/isawesome/img/1.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .item2 {
-  background-image: "img/2.jpg";
+  background-image: "https://albertlisi.github.io/isawesome/img/2.jpg";
   background-size: cover;
   background-position: center;
 }
 
 .item3 {
-  background-image: "img/3.jpg";
+  background-image: "https://albertlisi.github.io/isawesome/img/3.jpg";
   background-size: cover;
   background-position: center;
 }
 
 .item4 {
-  background-image: "img/4.jpg";
+  background-image: "https://albertlisi.github.io/isawesome/img/4.jpg";
   background-size: cover;
   background-position: center;
 }
