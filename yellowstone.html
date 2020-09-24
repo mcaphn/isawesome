@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/headerstyles.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/gallery.css">
+  <script src="js/gallery.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Karla&family=Playfair+Display&family=Source+Serif+Pro:wght@200&display=swap" rel="stylesheet">
+  <title>Al Lisi Photography</title>
+
+    <template>
+      <li>
+        <img alt="" loading="lazy">
+      </li>
+    </template>
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="name"><a href="index.html"><span class="home">AL LISI</span><a></div>
+    <ul class="nav">
+      <li><a href="yosemite.html">Yosemite</a></li>
+      <li><a href="yellowstone.html"><span class="linkon">Yellowstone</span></a></li>
+      <li><a href="ferncanyon.html">Fern Canyon</a></li>
+      <li><a href="laketahoe.html">Lake Tahoe</a></li>
+      <li><a href="foundry.html">Foundry</a></li>
+      <li><a href="about.html"><span class="about">About</span></a></li>
+    </ul>
+  </header>
+
+  <div class="fg-gallery">
+    <img src="Yellowstone/4.jpg" alt="">
+    <img src="Yellowstone/2.jpg" alt="">
+    <img src="Yellowstone/13.jpg" alt="">
+    <img src="Yellowstone/12.jpg" alt="">
+    <img src="Yellowstone/5.jpg" alt="">
+    <img src="Yellowstone/6.jpg" alt="">
+    <img src="Yellowstone/7.jpg" alt="">
+    <img src="Yellowstone/8.jpg" alt="">
+    <img src="Yellowstone/9.jpg" alt="">
+    <img src="Yellowstone/10.jpg" alt="">
+    <img src="Yellowstone/11.jpg" alt="">
+    <img src="Yellowstone/1.jpg" alt="">
+    <img src="Yellowstone/3.jpg" alt="">
+  </div>
+
+  <script>
+  var myGallery = new FgGallery('.fg-gallery', {
+      cols: 3,
+      style: {
+        height: '300px',
+        boxShadow: '0 2px 10px -5px #000'
+      }
+  })
+  </script>
+
+</body>
+<footer>
+  &#169; 2020 Built by MCAPHN
+</footer>
+</html>
