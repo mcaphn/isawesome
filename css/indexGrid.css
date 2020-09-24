@@ -52,13 +52,13 @@ html {
 }
 
 .item3 {
-  background-image: url("3.jpg");
+  background-image: url("img/3.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .item4 {
-  background-image: url("4.jpg");
+  background-image: url("img/4.jpg");
   background-size: cover;
   background-position: center;
 }
