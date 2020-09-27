@@ -19,6 +19,12 @@ header {
   margin: 0 auto;
 }
 
+.wrapper {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
 .name {
   font-family: "Playfair Display";
   font-size: 75px;
