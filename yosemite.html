@@ -1,70 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Yosemite Gallery"
+      content="Al Lisi Photography Yosemite Gallery"
+    />
+    <link href="css/gallery.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Jost&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/gallery.js"></script>
+    <title>Al Lisi Photography</title>
+  </head>
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="Yosemite Gallery" content="Al Lisi Photography Yosemite Gallery">
-  <link href="css/gallery.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Jost&display=swap" rel="stylesheet">
-   <script src="js/gallery.js"></script>
-  <title>Al Lisi Photography</title>
-</head>
-
-<body>
-  <header>
-    <div class="banner-image-container"></div>
-    <div class="navbar">
-      <a href="index.html" class="name">AL LISI</a>
-      <div class="links-bar">
+  <body>
+    <header>
+      <div class="banner-image-container"></div>
+      <div class="navbar">
+        <a href="index.html" class="name">AL LISI</a>
+        <div class="links-bar">
           <a href="about.html">About</a>
           <span class="subtitle">&nbspPhotography</span>
           <a href="mailto:alnlisi4@gmail.com">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="secondary-navbar">
+      <div class="min-nav">
+        <a href="about.html">About</a>
+        <a href="#">Contact</a>
+        <div class="button" id="button">Gallery &#9662;</div>
+      </div>
+      <div class="gallery-links" id="dropdown">
+        <a href="yosemite.html">Yosemite</a>
+        <a href="yellowstone.html">Yellowstone</a>
+        <a href="ferncanyon.html">Fern Canyon</a>
+        <a href="laketahoe.html">Lake Tahoe</a>
+        <a href="foundry.html">Foundry</a>
       </div>
     </div>
-  </header>
 
-  <div class="secondary-navbar">
-    <div class="min-nav">
-      <a href="about.html">About</a>
-      <a href="#">Contact</a>
-      <div class="button" id="button">Gallery &#9662;</div>
+    <div class="fg-gallery">
+      <img
+        src="Yosemite/1.jpg"
+        alt="Yosemite #1"
+        width="100%"
+        height="100%"
+        class="fit"
+      />
+      <img
+        src="Yosemite/2.jpg"
+        alt="Yosemite #2"
+        width="100%"
+        height="100%"
+        class="fit"
+      />
+      <img
+        src="Yosemite/3.jpg"
+        alt="Yosemite #3"
+        width="100%"
+        height="100%"
+        class="fit"
+      />
+      <img
+        src="Yosemite/4.jpg"
+        alt="Yosemite #4"
+        width="100%"
+        height="100%"
+        class="fit"
+      />
+      <img
+        src="Yosemite/5.jpg"
+        alt="Yosemite #5"
+        width="100%"
+        height="100%"
+        class="fit"
+      />
+      <img
+        src="Yosemite/6.jpg"
+        alt="Yosemite #6"
+        width="100%"
+        height="100%"
+        class="fit"
+      />
     </div>
-    <div class="gallery-links" id="dropdown">
-      <a href="yosemite.html">Yosemite</a>
-      <a href="yellowstone.html">Yellowstone</a>
-      <a href="ferncanyon.html">Fern Canyon</a>
-      <a href="laketahoe.html">Lake Tahoe</a>
-      <a href="foundry.html">Foundry</a>
+
+    <!-- The Modal -->
+    <div class="modal" id="modalbox">
+      <!-- The Close Button -->
+      <span class="close" id="close">&times;</span>
+
+      <!-- Modal Content (The Image) -->
+      <img id="expandedImg" src="" />
     </div>
-  </div>
 
-
-  <div class="fg-gallery">
-    <img src="Yosemite/1.jpg" alt="Yosemite #1" width="100%" height="100%" class="fit">
-    <img src="Yosemite/2.jpg" alt="Yosemite #2" width="100%" height="100%" class="fit">
-    <img src="Yosemite/3.jpg" alt="Yosemite #3" width="100%" height="100%" class="fit">
-    <img src="Yosemite/4.jpg" alt="Yosemite #4" width="100%" height="100%" class="fit">
-    <img src="Yosemite/5.jpg" alt="Yosemite #5" width="100%" height="100%" class="fit">
-    <img src="Yosemite/6.jpg" alt="Yosemite #6" width="100%" height="100%" class="fit">
-  </div>
-
-  <!-- The Modal -->
-  <div class="modal" id="modalbox">
-
-    <!-- The Close Button -->
-    <span class="close" id="close">&times;</span>
-
-    <!-- Modal Content (The Image) -->
-    <img id="expandedImg" src="">
-
-  </div>
-
-
-
-  <script src="js/gallery.js"></script>
-</body>
-<footer>
-  &#169; 2020 Built by MCAPHN
-</footer>
+    <script src="js/gallery.js"></script>
+  </body>
+  <footer>
+    &#169; 2020 Built by MCAPHN
+  </footer>
 </html>

@@ -3,7 +3,7 @@
 }
 
 html {
-  background: url("https://albertlisi.github.io/isawesome/img/banner2.jpg") no-repeat center center fixed;
+  background: url("../tahoe/1.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,146 +14,29 @@ html {
 body {
   color: #000000;
   font-family: "Jost";
-  font-size: 16px;
   margin: 0 auto;
-}
-
-header {
-  margin: 0 10%;
-}
-/* --------------
-   Link Styles
------------------*/
-
-a {
-  text-decoration: none;
-  margin: 10px 0;
-  color: #FFFFFF;
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-}
-
-a:hover {
-  -webkit-transform: translate(-.65em, 0);
-  -moz-transform: translate(-.65em, 0);
-  -o-transform: translate(-.65em, 0);
-  -ms-transform: translate(-.65em, 0);
-  transform: translate(-.65em, 0)
-  /* transform: translate(0,-0.65em); */
-}
-
-
-/* --------------
-   Header Styles
------------------*/
-
-.title {
-  margin-top: 60%;
-  animation: fadein 2s;
-  text-align: center;
+    color: #fff;
 }
 
 .name {
-  font-size: 35px;
-  text-transform: uppercase;
-  line-height: 1;
-  color: #ffffff;
+  font-size: 4em;
+  text-align: center;
+margin: 150px auto auto auto;
 }
 
-.subtitle {
-  letter-spacing: .13em;
-  text-transform: uppercase;
-  color: #ffffff;
+.enter-div {
+  text-align: center;
+  margin: 450px auto 10px auto;;
+}
+.enter {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
 }
 
-.gallery-links {
-  margin: 30px 0;
-  padding-right: 5%;
-  text-align: right;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  animation: fadein 2s;
-  animation-delay: .5s;
-  opacity: 0;
-  animation-fill-mode: both;
-
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+.enter:hover {
+  border: 1px solid #fff;
+  border-radius: 10px;
 }
-
-/* ----------------
-   Fade-in on Load
--------------------*/
-
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-
-  a:hover {
-    -webkit-transform: translate(0, -.65em);
-    -moz-transform: translate(0, -.65em);
-    -o-transform: translate(0, -.65em);
-    -ms-transform: translate(0, -.65em);
-    transform: translate(0, -.65em)
-  }
-
-  .title {
-    margin-top: 40%;
-  }
-
-  .gallery-links {
-    margin: 0 10% 5% 10%;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 85%;
-  }
-}
-
-@media only screen and (min-width: 1100px) {
-
-  .title {
-    margin-top: 25%;
-  }
-
-  .name {
-    font-size: 45px;
 }
